@@ -14,4 +14,7 @@ jcoffman_001.1561730462   Umodified CWL workflow (pe - unstranded - w/ sjdb). sj
                           and moving to parameters that are potentially more interesting.
 jcoffman_001.1561736697   Unmodified CWL workflow (pe - unstranded - w/ sjdb). Attempting to pass --outFilterMultimapNmax value of 1 when 
                           default is 10. I believe I will be able to accomplish this w/o modding cwl as it is present exactly as nthreads
-                          is in both pipeline and individual step nested workflows. 
+                          is in both pipeline and individual step nested workflows. Everything except the QUANT step worked. Wasn't able 
+                          to interpret console error response. I'm going to try to modify the sample-specific (sample 1) json file as to 
+                          pass 10 for --outFilterMultimapNmax, which is the default value. This will allow me to determine whether or not 
+                          failure is due to the value I passed through the JSON file, or the fact I am passing a parameter. 
