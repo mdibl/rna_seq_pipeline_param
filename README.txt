@@ -18,10 +18,15 @@ jcoffman_001.1561736697   Unmodified CWL workflow (pe - unstranded - w/ sjdb). A
                           to interpret console error response. I'm going to try to modify the sample-specific (sample 1) json file as to 
                           pass 10 for --outFilterMultimapNmax, which is the default value. This will allow me to determine whether or not 
                           failure is due to the value I passed through the JSON file, or the fact I am passing a parameter. THIS 
-                          SUCCESSFULLY generated .___.____.rsem.genes.results.
+                          SUCCESSFULLY generated .___.____.rsem.genes.results. 
 jcoffman_001.1561985819   Uses JSON file from sample SL94881 with --outFilterMultimapNmax value set to 9 as template. Only run with 
                           SL94881. Failed to produce genes.results file. Attempting rerun on the cloud. This may be related to lack of 
-                          specification of param at the level of the workflow.
+                          specification of param at the level of the workflow. Cloud run was successful, but further analysis is needed to  
+                          determine whether parameter made any difference. 
 jcoffman_001.1562004646   It appears --outFilterMultimapNmax values are hardcoded at the level of the analysis step. There are two 
                           references to this paramemter in the default 03-map...., the first is a value of 1, and the second is a value of     
                           20. In this run I've modified the cwl script so the first reference to outFilterMultimapnMax has value =2. 
+                          Sample-single-pipeline-loca Run #385
+jcoffman_001.1562012036   Identical to original jcoffman_001.1561736697 with --outFilterMultimapNmax set = 1, except this one is run on   
+                          cloud. Success of jcoffman_001.1562004646 indicates pipeline success may be related to an issue specific to the 
+                          local server. Run-cwl-cloud #160.
