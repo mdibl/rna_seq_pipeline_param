@@ -20,4 +20,5 @@ jcoffman_001.1561736697   Unmodified CWL workflow (pe - unstranded - w/ sjdb). A
                           failure is due to the value I passed through the JSON file, or the fact I am passing a parameter. THIS 
                           SUCCESSFULLY generated .___.____.rsem.genes.results.
 jcoffman_001.1561985819   Uses JSON file from sample SL94881 with --outFilterMultimapNmax value set to 9 as template. Only run with 
-                          SL94881.
+                          SL94881. Failed to produce genes.results file. Attempting rerun on the cloud. This may be related to lack of 
+                          specification of param at the level of the workflow. 
