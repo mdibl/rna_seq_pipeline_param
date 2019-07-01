@@ -19,4 +19,5 @@ jcoffman_001.1561736697   Unmodified CWL workflow (pe - unstranded - w/ sjdb). A
                           pass 10 for --outFilterMultimapNmax, which is the default value. This will allow me to determine whether or not 
                           failure is due to the value I passed through the JSON file, or the fact I am passing a parameter. THIS 
                           SUCCESSFULLY generated .___.____.rsem.genes.results.
-jcoffman_001.1561985819   Uses JSON file from sample SL94881 with --outFilterMultimapNmax value set to 9 as template.  
+jcoffman_001.1561985819   Uses JSON file from sample SL94881 with --outFilterMultimapNmax value set to 9 as template. Only run with 
+                          SL94881.
