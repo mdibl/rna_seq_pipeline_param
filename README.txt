@@ -39,4 +39,4 @@ jcoffman_001.1562073104   In this run I've modified the cwl script so the first 
 
 
 jcoffman_001.1562086760: alignIntronMax changed from 1000000 to 100000 in cwl of 03-map....., local build.
-jcoffman_001.1562098405: outFilterMismatchNoverReadLmax changed from 0.04 to 0.01 in cwl of 03-map..., hard-coded.
+jcoffman_001.1562098405: outFilterMismatchNoverReadLmax changed from 0.04 to 0.1 in cwl of 03-map..., hard-coded.
