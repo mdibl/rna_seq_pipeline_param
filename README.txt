@@ -30,6 +30,7 @@ jcoffman_001.1562004646   It appears --outFilterMultimapNmax values are hardcode
 jcoffman_001.1562012036   Identical to original jcoffman_001.1561736697 with --outFilterMultimapNmax set = 1, except this one is run on   
                           cloud. Success of jcoffman_001.1562004646 indicates pipeline success may be related to an issue specific to the 
                           local server. Run-cwl-cloud #160.
+                         
                           
 # Comparing jcoffman_001.1561736697, jcoffman_001.1561985819, jcoffman_001.1562004646, jcoffman_001.1562012036.
 
@@ -38,3 +39,4 @@ jcoffman_001.1562073104   In this run I've modified the cwl script so the first 
 
 
 jcoffman_001.1562086760: alignIntronMax changed from 1000000 to 100000 in cwl of 03-map....., local build.
+jcoffman_001.1562098405: outFilterMismatchNoverReadLmax changed from 0.04 to 0.01 in cwl of 03-map..., hard-coded.
