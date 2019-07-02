@@ -35,3 +35,6 @@ jcoffman_001.1562012036   Identical to original jcoffman_001.1561736697 with --o
 
 jcoffman_001.1562073104   In this run I've modified the cwl script so the first reference to outFilterMultimapnMax has value =10. Local 
                           single sample run #386. 
+
+
+jcoffman_001.1562086760: alignIntronMax changed from 1000000 to 100000 in cwl of 03-map....., local build.
