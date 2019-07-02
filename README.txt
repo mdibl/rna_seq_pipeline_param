@@ -32,3 +32,6 @@ jcoffman_001.1562012036   Identical to original jcoffman_001.1561736697 with --o
                           local server. Run-cwl-cloud #160.
                           
 # Comparing jcoffman_001.1561736697, jcoffman_001.1561985819, jcoffman_001.1562004646, jcoffman_001.1562012036.
+
+jcoffman_001.1562073104   In this run I've modified the cwl script so the first reference to outFilterMultimapnMax has value =10. Local 
+                          single sample run #386. 
