@@ -42,4 +42,4 @@ jcoffman_001.1562086760: alignIntronMax changed from 1000000 to 100000 in cwl of
 jcoffman_001.1562098405: outFilterMismatchNoverReadLmax changed from 0.04 to 0.1 in cwl of 03-map..., hard-coded. This made a difference in expected read counts. It seems though high reads counds might be disproportionately affected. 
 jcoffman_001.1562160660: outFilterMismatchNoverReadLmax changed from 0.04 to 0.004 in cwl of 03-map..., hard-coded.
 jcoffman_001.1562175149: outFilterMismatchNoverReadLmax changed from 0.04 to 0.4 in cwl of 03-map..., hard-coded.
-jcoffman_001.1562270315: sjdbScore changed for 1 to 5 in cwl of 03-map..., hardcoded.
+jcoffman_001.1562270812: sjdbScore changed for 1 to 5 in cwl of 03-map..., hardcoded.
