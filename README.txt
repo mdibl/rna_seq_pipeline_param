@@ -35,4 +35,6 @@ jcoffman_001.1562160660: outFilterMismatchNoverReadLmax changed from 0.04 to 0.0
 
 jcoffman_001.1562175149: outFilterMismatchNoverReadLmax changed from 0.04 to 0.4 in cwl of 03-map..., hard-coded.
 
-jcoffman_001.1562270812: sjdbScore changed for 1 to 5 in cwl of 03-map..., hardcoded.
+jcoffman_001.1562270812: sjdbScore changed for 1 to 5 in cwl of 03-map..., hardcoded. General elevation in read counts. 
+
+jcoffman_001.1562334134: sjdbScore set from 1 to 0.2 in 03-map ..., hardcoded. 
