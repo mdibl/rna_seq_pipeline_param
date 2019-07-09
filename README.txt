@@ -23,7 +23,7 @@ jcoffman_001.1561985819:   Uses JSON file from sample SL94881 with --outFilterMu
 jcoffman_001.1562004646:   It appears --outFilterMultimapNmax values are hardcoded at the level of the analysis step. There are two references to this paramemter in the default 03-map...., the first is a value of 1, and the second is a value of 20. In this run I've modified the cwl script so the first reference to outFilterMultimapnMax has value =2. Sample-single-pipeline-loca Run #385
 
 jcoffman_001.1562012036:  Identical to original jcoffman_001.1561736697 with --outFilterMultimapNmax set = 1, except this one is run on cloud. Success of jcoffman_001.1562004646 indicates pipeline success may be related to an issue specific to the local server. Run-cwl-cloud #160.
-                         
+                                          
 jcoffman_001.1562073104:  In this run I've modified the cwl script so the first reference to outFilterMultimapnMax has value =10. Local 
                           single sample run #386. 
 
@@ -40,3 +40,5 @@ jcoffman_001.1562270812: sjdbScore changed for 1 to 5 in cwl of 03-map..., hardc
 jcoffman_001.1562334134: sjdbScore set from 1 to 0.2 in 03-map ..., hardcoded. After multiple attempts and variations this run never worked. I'm aborting it. 
 
 jcoffman_001.1562611492: sjdbScore set from 1 to 2 in 03-map ..., hardcoded. 
+
+jcoffman_001.1562684990: outFilterMismatchNmax set from 999 to 100 in 03-map ..., hardcoded. 
