@@ -42,3 +42,7 @@ jcoffman_001.1562334134: sjdbScore set from 1 to 0.2 in 03-map ..., hardcoded. A
 jcoffman_001.1562611492: sjdbScore set from 1 to 2 in 03-map ..., hardcoded. 
 
 jcoffman_001.1562684990: outFilterMismatchNmax set from 999 to 100 in 03-map ..., hardcoded. 
+
+jcoffman_001.1562695614:outFilterMismatchNoverReadLmax changed from 0.04 to 0.004, JSON PASS TEST
+
+jcoffman_001.1562717283: outFilterMismatchNoverReadLmax changed from 0.04 to 0.004, Hard coded control JSON PASS TEST
