@@ -48,3 +48,5 @@ jcoffman_001.1562695614:outFilterMismatchNoverReadLmax changed from 0.04 to 0.00
 jcoffman_001.1562717283: outFilterMismatchNoverReadLmax changed from 0.04 to 0.004, Hard coded control JSON PASS TEST
 
 jcoffman_001.1562768838: --alignSJoverhangMin changed from 8 to 20, Hard Coded 03-map...
+
+jcoffman_001.1562791941: --outFilterMatchNmin added of 03-map .. cwl file, default 0 changed to 1. 
