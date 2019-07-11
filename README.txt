@@ -49,4 +49,6 @@ jcoffman_001.1562717283: outFilterMismatchNoverReadLmax changed from 0.04 to 0.0
 
 jcoffman_001.1562768838: --alignSJoverhangMin changed from 8 to 20, Hard Coded 03-map...
 
-jcoffman_001.1562791941: --outFilterMatchNmin added of 03-map .. cwl file, default 0 changed to 1. 
+jcoffman_001.1562791941: --outFilterMatchNmin added of 03-map .. cwl file, default 0 changed to 1. I couldn't get this run to work properly. Jenkins reports success but doesn't produces *.genes.results. Sometimes, I can delete the sample folder in scratch created by the run, and the run log in scratch, and retrigger the run - successfully producing a *.genes.results, but in this case, after 3 attempts I was unable to produce the file. 
+
+jcoffman_001.1562869653 : --outFilterMismatchNoverReadLmax (Hard Coded) changed from 0.04 to 0.004 in )3-map . . . cwl, and analysis triggered for all Coffman cortisol data. 
