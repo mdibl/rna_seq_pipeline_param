@@ -23,7 +23,7 @@ jcoffman_001.1561985819:   Uses JSON file from sample SL94881 with --outFilterMu
 jcoffman_001.1562004646:   It appears --outFilterMultimapNmax values are hardcoded at the level of the analysis step. There are two references to this paramemter in the default 03-map...., the first is a value of 1, and the second is a value of 20. In this run I've modified the cwl script so the first reference to outFilterMultimapnMax has value =2. Sample-single-pipeline-loca Run #385
 
 jcoffman_001.1562012036:  Identical to original jcoffman_001.1561736697 with --outFilterMultimapNmax set = 1, except this one is run on cloud. Success of jcoffman_001.1562004646 indicates pipeline success may be related to an issue specific to the local server. Run-cwl-cloud #160.
-                                          
+                                      
 jcoffman_001.1562073104:  In this run I've modified the cwl script so the first reference to outFilterMultimapnMax has value =10. Local 
                           single sample run #386. 
 
@@ -51,4 +51,6 @@ jcoffman_001.1562768838: --alignSJoverhangMin changed from 8 to 20, Hard Coded 0
 
 jcoffman_001.1562791941: --outFilterMatchNmin added of 03-map .. cwl file, default 0 changed to 1. I couldn't get this run to work properly. Jenkins reports success but doesn't produces *.genes.results. Sometimes, I can delete the sample folder in scratch created by the run, and the run log in scratch, and retrigger the run - successfully producing a *.genes.results, but in this case, after 3 attempts I was unable to produce the file. 
 
-jcoffman_001.1562869653 : --outFilterMismatchNoverReadLmax (Hard Coded) changed from 0.04 to 0.004 in )3-map . . . cwl, and analysis triggered for all Coffman cortisol data. 
+jcoffman_001.1562869653 : --outFilterMismatchNoverReadLmax (Hard Coded) changed from 0.04 to 0.004 in )3-map . . . cwl, and analysis triggered for all Coffman cortisol data.
+
+jcoffman_001.1563039743: --outFilterMismatchNoverReadLmax (Hard Coded) changed from 0.04 to 0.013 in )3-map . . . cwl, and analysis triggered for all Coffman cortisol data.
