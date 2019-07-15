@@ -54,3 +54,5 @@ jcoffman_001.1562791941: --outFilterMatchNmin added of 03-map .. cwl file, defau
 jcoffman_001.1562869653 : --outFilterMismatchNoverReadLmax (Hard Coded) changed from 0.04 to 0.004 in )3-map . . . cwl, and analysis triggered for all Coffman cortisol data.
 
 jcoffman_001.1563039743: --outFilterMismatchNoverReadLmax (Hard Coded) changed from 0.04 to 0.013 in )3-map . . . cwl, and analysis triggered for all Coffman cortisol data.
+
+jcoffman_001.1563195792: --outFilterMismatchNoverReadLmax (Hard Coded) changed from 0.04 to 0.022 in )3-map . . . cwl, and analysis triggered for all Coffman cortisol data.
